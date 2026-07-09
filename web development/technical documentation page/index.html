@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Beginner Guide – Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <header>HTML Beginner Guide</header>
+        <ul>
+            <li><a class="nav-link" href="#introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#basic_structure">Basic Structure</a></li>
+            <li><a class="nav-link" href="#text_elements">Text Elements</a></li>
+            <li><a class="nav-link" href="#links_images">Links & Images</a></li>
+            <li><a class="nav-link" href="#lists">Lists</a></li>
+            <li><a class="nav-link" href="#forms">Forms</a></li>
+            <li><a class="nav-link" href="#conclusion">Conclusion</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+
+        <section class="main-section" id="introduction">
+            <header><h2>Introduction</h2></header>
+            <p>HTML (HyperText Markup Language) is the foundation of every website. It defines the structure and meaning of content on the web.</p>
+            <p>This guide will walk you through the basics of HTML so you can start building your own pages.</p>
+        </section>
+
+        <section class="main-section" id="basic_structure">
+            <header><h2>Basic Structure</h2></header>
+            <p>Every HTML document follows a basic structure. Here is the minimum required:</p>
+
+            <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+            </code></pre>
+
+            <p>The <strong>&lt;head&gt;</strong> contains metadata, while the <strong>&lt;body&gt;</strong> contains visible content.</p>
+        </section>
+
+        <section class="main-section" id="text_elements">
+            <header><h2>Text Elements</h2></header>
+            <p>HTML provides many tags for text formatting:</p>
+
+            <ul>
+                <li><code>&lt;h1&gt;–&lt;h6&gt;</code> headings</li>
+                <li><code>&lt;p&gt;</code> paragraph</li>
+                <li><code>&lt;strong&gt;</code> bold text</li>
+                <li><code>&lt;em&gt;</code> italic text</li>
+            </ul>
+
+            <pre><code>
+&lt;h2&gt;This is a heading&lt;/h2&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+&lt;strong&gt;Bold text&lt;/strong&gt;
+&lt;em&gt;Italic text&lt;/em&gt;
+            </code></pre>
+        </section>
+
+        <section class="main-section" id="links_images">
+            <header><h2>Links & Images</h2></header>
+            <p>Links are created with the <code>&lt;a&gt;</code> tag, and images with the <code>&lt;img&gt;</code> tag.</p>
+
+            <pre><code>
+&lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;
+
+&lt;img src="image.jpg" alt="A description of the image"&gt;
+            </code></pre>
+        </section>
+
+        <section class="main-section" id="lists">
+            <header><h2>Lists</h2></header>
+            <p>HTML supports ordered and unordered lists:</p>
+
+            <pre><code>
+&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;First&lt;/li&gt;
+    &lt;li&gt;Second&lt;/li&gt;
+&lt;/ol&gt;
+            </code></pre>
+        </section>
+
+        <section class="main-section" id="forms">
+            <header><h2>Forms</h2></header>
+            <p>Forms allow users to submit information:</p>
+
+            <pre><code>
+&lt;form&gt;
+    &lt;label&gt;Name:&lt;/label&gt;
+    &lt;input type="text"&gt;
+
+    &lt;label&gt;Email:&lt;/label&gt;
+    &lt;input type="email"&gt;
+
+    &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+            </code></pre>
+        </section>
+
+        <section class="main-section" id="conclusion">
+            <header><h2>Conclusion</h2></header>
+            <p>You now understand the basics of HTML. With these fundamentals, you can begin building real web pages and expand into CSS and JavaScript.</p>
+        </section>
+
+    </main>
+
+</body>
+</html>
